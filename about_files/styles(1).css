@@ -1,0 +1,103 @@
+body {
+    background-color: lightyellow;
+}
+
+a.nodec {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+li em {
+    color: blue
+}
+
+h1,
+em {
+    color: green
+}
+
+ul {
+    margin-left: 20px;
+}
+
+ul ul {
+    font-size: .8em;
+}
+
+p {
+    color: red;
+}
+
+p.solid {
+    border-style: solid;
+}
+span {
+    color: plum;
+}
+
+.extra span {
+    color: inherit;
+}
+
+li em {
+    text-decoration: line-through;
+}
+
+h1,
+em {
+    font-weight: bold;
+    color: teal;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 12pt;
+    font-family: arial, sans-serif;
+}
+
+body {
+    background-color: oldlace;
+}
+
+.lab1 {
+    position: absolute;
+    top: 105px;
+    width: 50%;
+    /*height: 500px;*/
+    margin: 0;
+    margin-left: 150px;
+}
+
+.bor {
+    float: right;
+    border-width: 3px;
+    width: auto;
+    /*height: 500px;*/
+    margin: 0;
+    margin-right: 150px;
+}
+.bortw{
+    margin-left: 50%;
+}
+.background{
+
+    position: absolute;
+    
+    border-style: solid;
+    border-width: 5px;
+    width: 50%;
+    z-index: 1;
+    
+}
+.frontpic{
+   position: absolute;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    border-color: green;
+    border-style: solid;
+    z-index: 2;
+}

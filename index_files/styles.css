@@ -1,0 +1,144 @@
+body {
+    background-color: lightyellow;
+}
+
+a.nodec {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+li em {
+    color: blue
+}
+
+h1,
+em {
+    color: green
+}
+
+ul {
+    margin-left: 20px;
+}
+
+ul ul {
+    font-size: .8em;
+}
+
+p {
+    color: red;
+}
+
+p.solid {
+    border-style: solid;
+}
+span {
+    color: plum;
+}
+
+.extra span {
+    color: inherit;
+}
+
+li em {
+    text-decoration: line-through;
+}
+
+h1,
+em {
+    font-weight: bold;
+    color: teal;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 12pt;
+    font-family: arial, sans-serif;
+}
+
+body {
+    background-color: oldlace;
+}
+
+.lab1 {
+    position: absolute;
+    top: 105px;
+    width: 500px;
+    /*height: 500px;*/
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 150px;
+    border-width: 3px;
+    border-style: solid;
+    margin-bottom: 300px;
+}
+
+.bor {
+    position: relative;
+    
+    border-width: 3px;
+    width: 50%;
+    /*height: 500px;*/
+    margin-left: 60%;
+    margin-right: 150px;
+    
+}
+.bortw{
+    margin-left: 50%;
+}
+.background{
+
+    position: absolute;
+    
+    border-style: solid;
+    border-width: 5px;
+    width: 50%;
+    z-index: 1;
+    
+}
+.frontpic{
+   position: absolute;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    border-color: green;
+    border-style: solid;
+    z-index: 2;
+}
+html, body {
+    /* 設定body高度為100% 拉到視窗可視的大小 */
+    height: 100%;
+}
+
+#id_wrapper {
+    /* 設定高度最小為100%, 如果內容區塊很多, 可以長大 */
+    min-height: 100%;
+    /* 位置設為relative, 作為footer區塊位置的參考 */
+    position: relative;
+}
+
+#id_header {
+    /* 設定header的高度 */
+    height: 40px;
+    box-sizing: border-box;
+}
+
+#id_content {
+    /* 留出header及footer區塊的空間 */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+#id_footer {
+    /* 設定footer的高度 */
+    height: 0.55px;
+    box-sizing: border-box;
+    /* 設定footer絕對位置在底部 */
+    position: absolute;
+    bottom: 0;
+    /* 展開footer寬度 */
+    width: 100%;
+}
